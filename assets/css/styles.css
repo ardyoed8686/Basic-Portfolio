@@ -10,14 +10,14 @@
   body {
   }
   
-  #contact-info {
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 100%;
+  #main-header {
+    padding: 30px;
+    margin: 0;
+    border: 5px;
+    height: 30px;
     color: #666;
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    float: left;
   }
 
   #header {
@@ -26,7 +26,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     margin: 0;
-    width: 25%;
     float: left;
   }
 
@@ -38,22 +37,36 @@
   }
   
   #main-bio {
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
+    width: 100%;
     margin-bottom: 20px;
     background-color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #666;
+    color: #45AAA6;
     float: left;
   }
   
- #bio-image {
+ #image {
     padding: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color: #fff;
     color: #666;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
+    width: 500px;
+    height: 200px;
+  }
+
+  #bio {
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    border: 5px;
+    border-color: #dddddd; 
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    float: center;
     width: 500px;
     height: 200px;
   }
