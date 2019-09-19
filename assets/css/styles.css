@@ -35,11 +35,9 @@
 
   .wrapper {
     padding: 20px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 20px;
     background-color: #E9E9E9;
-    float: center;
   }
   
   .main-bio {
@@ -52,7 +50,6 @@
     text-align: left;
     border-bottom: solid 2px;
     border-color: #cccccc;
-    float: left;
   }
   
   .test-box {
