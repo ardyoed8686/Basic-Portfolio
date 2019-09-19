@@ -10,6 +10,7 @@
   #main-name {
     padding: 20px;
     margin-bottom: 20px;
+    width: 25%;
     color: #fff;
     background-color: #45AAA6;
     float: left;
@@ -46,5 +47,13 @@
     background-color: #fff;
     color: #666;
     float: left;
+    width: 30%;
+    height: 200px;
   }
-  
+
+  footer {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #666;
+    color: #fff;
+  }
