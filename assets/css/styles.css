@@ -14,8 +14,7 @@
     padding: 20px;
     margin-bottom: 20px;
     width: 100%;
-    border: 5px;
-    border-color: #cccccc;
+    border: solid 5px #cccccc;
     height: 30px;
     color: #666;
     text-align: right;
