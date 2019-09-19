@@ -13,6 +13,7 @@
   #main-header {
     padding: 20px;
     margin-bottom: 20px;
+    width: 100%;
     border: 5px;
     border-color: #cccccc;
     height: 30px;
@@ -36,7 +37,7 @@
     padding: 20px;
     margin-bottom: 20px;
     background-color: #E9E9E9;
-    float: left;
+    float: center;
   }
   
   #main-bio {
@@ -82,4 +83,6 @@
     background-color: #666;
     color: #fff;
     clear: both;
+    height: 50px;
+    margin-top: -50px;
   }
