@@ -10,7 +10,7 @@
   height: 30px;
   margin: 0;
   position: absolute;
-  left: 10%;
+  left: 20%;
   float: left;
 }
 
@@ -28,35 +28,35 @@
 }
 
 .container {
-    width: 100%;
-    background-image: image("desktop/papyrus/papyrus.png");
+  width: 100%;
+  background-image: image("desktop/papyrus/papyrus.png");
 }
 
 .wrapper {
-    width: 960px;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    position: relative;
+  width: 960px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
 
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: #45AAA6;
-    margin: 20px;
-}
-
-.image {
-  float: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #45AAA6;
   margin: 20px;
 }
 
+.image {
+float: left;
+margin: 20px;
+}
+
 .bio {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: #666; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #666; 
 }
 
 footer {
