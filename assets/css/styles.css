@@ -2,96 +2,74 @@
  * Portfolio
  **/
 
- *, *::after, *::before {
-    box-sizing: border-box;
-    text-align: left;
-  }
-  
-  body {
-  }
-  
-  .main-header {
-    padding: 20px;
-    margin-bottom: 20px;
+ .My-name {
+  color: #fff;
+  background-color: #45AAA6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  height: 30px;
+  margin: 0;
+  position: absolute;
+  left: 10%;
+  float: left;
+}
+
+.Contact-info {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  border-bottom: solid 2px #cccccc;
+  height: 30px;
+  color: #666;
+  text-align: right;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.container {
     width: 100%;
-    border: solid 2px #cccccc;
-    height: 30px;
-    color: #666;
-    text-align: right;
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-  }
+    background-image: image("desktop/papyrus/papyrus.png");
+}
 
-  .header {
-    color: #fff;
-    background-color: #45AAA6;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
-    margin: 0;
-    position: absolute;
-    top: 0%;
-  }
-
-  .wrapper {
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #E9E9E9;
-  }
-  
-  .main-bio {
-    margin: auto;
-    padding: 20px;
-    width: 100%;
-    background-color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #45AAA6;
-    text-align: left;
-    border-bottom: solid 2px;
-    border-color: #cccccc;
-  }
-  
-  .test-box {
-    position: relative;
-  }
-
- .image {
-    padding: 20px;
-    margin: 20px;
-    background-color: #cccccc;
-    color: #666;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    float: left;
-    width: 200px;
-    height: 200px;
-  }
-
-  .bio {
-    padding: 20px;
-    margin: auto;
-    background-color: #fff;
-    border: 5px;
-    border-color: #dddddd; 
-    color: #666;
-    font-family: Arial, Helvetica, sans-serif;
+.wrapper {
     width: 960px;
-    height: 200px;
-    clear: both;
-  }
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
 
-  footer {
-    border-top: 8px solid #4aaaa5;
-    position: fixedabsolute;
-    bottom: 0%;
-    width: 100%;
-    padding: 10px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #45AAA6;
     margin: 20px;
-    text-align: center;
-    background-color: #666;
-    color: #fff;
-    clear: both;
-    height: 50px;
-    margin-top: -50px;
-  }
+}
+
+.image {
+  float: left;
+  margin: 20px;
+}
+
+.bio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #666; 
+}
+
+footer {
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+  clear: both;
+  height: 50px;
+  margin-top: -50px;
+}
