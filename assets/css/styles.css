@@ -98,3 +98,43 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+
+.container-con {
+  width: 100%;
+  background-image: image("desktop/papyrus/papyrus.png");
+}
+
+.wrapper-con {
+  width: 760px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.contact-bio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #cccccc;
+}
+
+.Name {
+  height: 20px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 2px;
+}
+
+.Email {
+  height: 20px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 2px;
+}
+
+.Message {
+  height: 80px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 2px;
+}
