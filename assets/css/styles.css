@@ -10,7 +10,7 @@
   height: 30px;
   margin: 0;
   position: absolute;
-  left: 20%;
+  left: 10%;
   float: left;
 }
 
@@ -72,4 +72,16 @@ footer {
   clear: both;
   height: 50px;
   margin-top: -50px;
+}
+
+.My-name-con {
+  color: #fff;
+  background-color: #45AAA6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  height: 30px;
+  margin: 0;
+  position: absolute;
+  left: 20%;
+  float: left;
 }
