@@ -29,15 +29,20 @@
 
 .container {
   width: 100%;
-  background-image: url("assets/images/papyrus.png");
+  margin: 0 auto;
+  background-image: url("morocco.png");
+  background-color: azure;
+  
 }
 
 .wrapper {
-  width: 960px;
-  height: 400px;
+  width: 800px;
+  height: 450px;
   margin: 0 auto;
+  padding: 20px;
   background-color: #fff;
   position: relative;
+  border: solid 2px #666;
 
 }
 
@@ -101,7 +106,7 @@ footer {
 
 .container-con {
   width: 100%;
-  background-color: navajowhite;
+  background-image: url("morocco.png");
 }
 
 .wrapper-con {
