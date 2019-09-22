@@ -30,9 +30,8 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  background-image: url("morocco.png");
+  background-image: url("assets/images/morocco.png");
   background-color: azure;
-  
 }
 
 .wrapper {
@@ -42,8 +41,6 @@
   padding: 20px;
   background-color: #fff;
   position: relative;
-  border: solid 2px #666;
-
 }
 
 h1 {
@@ -142,4 +139,9 @@ footer {
   border-style: solid;
   border-color: #cccccc;
   border-width: 2px;
+}
+
+.box {
+  height: 200px;
+  width: 30%;
 }
