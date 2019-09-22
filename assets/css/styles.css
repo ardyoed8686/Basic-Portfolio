@@ -10,7 +10,7 @@
   height: 30px;
   margin: 0;
   position: absolute;
-  left: 10%;
+  left: 14%;
   float: left;
 }
 
@@ -71,6 +71,7 @@ footer {
   text-align: center;
   background-color: #666;
   color: #fff;
+  font-size: 12px;
   clear: both;
   height: 50px;
   margin-top: -50px;
@@ -84,7 +85,7 @@ footer {
   height: 30px;
   margin: 0;
   position: absolute;
-  left: 30%;
+  left: 20%;
   float: left;
 }
 
@@ -104,6 +105,7 @@ footer {
 .container-con {
   width: 100%;
   background-image: url("morocco.png");
+  background-color: azure;
 }
 
 .wrapper-con {
@@ -143,5 +145,8 @@ footer {
 
 .box {
   height: 200px;
-  width: 30%;
+  width: 200px;
+  border: #666;
+  float: left;
+
 }
