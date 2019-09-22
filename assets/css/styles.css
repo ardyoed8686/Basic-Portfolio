@@ -6,8 +6,8 @@
   color: #fff;
   background-color: #45AAA6;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 20px;
-  height: 30px;
+  padding: 10px;
+  height: 20px;
   margin: 0;
   position: absolute;
   left: 14%;
@@ -15,11 +15,11 @@
 }
 
 .Contact-info {
-  padding: 20px;
+  padding: 10px;
   margin: 0;
   width: 100%;
   border-bottom: solid 2px #cccccc;
-  height: 30px;
+  height: 20px;
   color: #666;
   text-align: right;
   background-color: #fff;
@@ -30,7 +30,7 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  background-image: url("assets/images/morocco.png");
+  background-image: url("morocco.png");
   background-color: azure;
 }
 
@@ -73,7 +73,7 @@ footer {
   color: #fff;
   font-size: 12px;
   clear: both;
-  height: 50px;
+  height: auto;
   margin-top: -50px;
 }
 
@@ -81,8 +81,8 @@ footer {
   color: #fff;
   background-color: #45AAA6;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 20px;
-  height: 30px;
+  padding: 10px;
+  height: 20px;
   margin: 0;
   position: absolute;
   left: 20%;
@@ -90,11 +90,11 @@ footer {
 }
 
 .Contact-info-con {
-  padding: 20px;
+  padding: 10px;
   margin: 0;
   width: 100%;
   border-bottom: solid 2px #cccccc;
-  height: 30px;
+  height: 20px;
   color: #666;
   text-align: right;
   background-color: #fff;
@@ -110,7 +110,6 @@ footer {
 
 .wrapper-con {
   width: 760px;
-  height: 400px;
   margin: 0 auto;
   background-color: #fff;
   position: relative;
@@ -143,10 +142,27 @@ footer {
   border-width: 2px;
 }
 
+.row {
+  height: auto;
+}
+
 .box {
-  height: 200px;
-  width: 200px;
-  border: #666;
+  margin: 2% 7%;
+  height: 130px;
+  width: 130px;
+  border: solid 2px #666;
   float: left;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  background-color: #45AAA6;
+  color: #fff;
+  padding: 5%;
+  right: 0;
+  left: 0;
 
 }
