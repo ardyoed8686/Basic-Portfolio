@@ -10,7 +10,7 @@
   height: 20px;
   margin: 0;
   position: absolute;
-  left: 14%;
+  left: 10%;
   float: left;
 }
 
@@ -85,7 +85,7 @@ footer {
   height: 20px;
   margin: 0;
   position: absolute;
-  left: 20%;
+  left: 18%;
   float: left;
 }
 
@@ -164,5 +164,16 @@ footer {
   padding: 5%;
   right: 0;
   left: 0;
+}
 
+.button {
+  background-color: #45AAA6;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
 }
